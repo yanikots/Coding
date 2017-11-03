@@ -13,7 +13,7 @@ while recalculate == "y":
         6. Square both number?\n\
         7. Find the square root of both?\n"
 
-    answer = int(input(menu))
+    answer = input(menu)
 
     if answer == 1:
         print (firstNumber * secondNumber)
