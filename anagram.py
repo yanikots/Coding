@@ -76,7 +76,7 @@ while replay == "y":
             answer = input(scrambled)
             if answer == word:
                 print ("Good job!")
-                score = score+4
+                score = score+3
                 print ("Score:",score)
                 break
             else :
